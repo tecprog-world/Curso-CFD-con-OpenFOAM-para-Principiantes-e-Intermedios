@@ -1,0 +1,63 @@
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} 
+\usepackage{booktabs}
+\usepackage{listings} %Inserta código en el archivo
+\usepackage{hyperref} %permite insertar direcciones web
+
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+
+
+
+
+
+\institute[INS] 
+{
+%================= logos no meio =====================
+\vspace*{-0.35cm}
+\includegraphics[width=1.8cm]{img/ImagenN03.png}
+\hspace*{0.25cm}~%
+\includegraphics[width=1.8cm]{img/logo-neo.png}
+\vspace*{0.35cm}\\
+Instituto Navier Stokes -- INS \\
+
+%\medskip
+%\texttt{\{institutonavierstokes,ronety\}@gmail.com} % emails
+}
+\date{\today}
+
+\AtBeginSection[]
+{
+\begin{frame}
+\frametitle{Contenido}
+\tableofcontents[currentsection]
+\end{frame}
+}

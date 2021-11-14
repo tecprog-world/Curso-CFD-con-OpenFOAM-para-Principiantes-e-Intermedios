@@ -1,0 +1,81 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-a0f1846504f2
+Exec   : blockMesh
+Date   : Oct 24 2021
+Time   : 15:54:15
+Host   : "tw-Satellite-C45t-A"
+PID    : 11278
+I/O    : uncollated
+Case   : /home/tw/OpenFOAM/tw-9/run/03-cavity/cavityClipped
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 2
+		Number of boundary faces : 14
+		Number of defined boundary faces : 14
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.1
+    Block 0 cell size :
+        i : 0.005 .. 0.005
+        j : 0.005 .. 0.005
+        k : 0.01
+    Block 1 cell size :
+        i : 0.005 .. 0.005
+        j : 0.005
+        k : 0.01
+    Block 2 cell size :
+        i : 0.005 .. 0.005
+        j : 0.005
+        k : 0.01
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (0.1 0.1 0.01)
+  nPoints: 754
+  nCells: 336
+  nFaces: 1384
+  nInternalFaces: 632
+----------------
+Patches
+----------------
+  patch 0 (start: 632 size: 20) name: lid
+  patch 1 (start: 652 size: 60) name: fixedWalls
+  patch 2 (start: 712 size: 672) name: frontAndBack
+
+End
+
