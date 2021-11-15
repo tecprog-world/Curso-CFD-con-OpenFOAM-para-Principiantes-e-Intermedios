@@ -75,7 +75,7 @@ Total 44 horas
 ## RECOMENDACIONES:
 * Clase Asíncrona: El curso es una grabación alojada en la plataforma de Youtube, por lo que podrá verlo en el momento que usted desee, así como desarrollar los trabajos realizados.
 
-## Opcionales:
+## OPCIONALES:
 * Instalar Virtualbox e instalar sobre el Lubuntu (Ligero) o Ubuntu en las versiones LTS.
 * Instalar en paralelo a su sistema operativo Lubuntu.
 * Contar con un Swift para el número de computadoras que desea conectar y armar su clúster casero.
